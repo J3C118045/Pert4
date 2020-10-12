@@ -1,0 +1,10 @@
+CRITICAL - 2020-10-09 04:44:39 --> Invalid file: hello.php
+#0 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert4\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hello.php')
+#1 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert4\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('hello', Array, true)
+#2 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert4\app\Controllers\Mahasiswa.php(12): view('hello')
+#3 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert4\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Mahasiswa->ucapan()
+#4 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert4\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#5 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert4\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert4\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\DATA D\FOLDER KULIAH\Semester 5\PABW\pert4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\DATA D\\FOLDE...')
+#8 {main}
